@@ -16,23 +16,15 @@ export const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Diseño del sitio 100% a tu gusto.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Plantillas ya diseñadas, o 100% personalizadas.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Estilos modernos y únicos.</p>
             </li>
           </ul>
         </article>
@@ -46,23 +38,15 @@ export const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Uso de las tecnologías más confiables del mercado.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Desarrollo de páginas totalmente escalables.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Producto final completo y prolijo.</p>
             </li>
           </ul>
         </article>
@@ -76,23 +60,19 @@ export const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Hosting del sitio estable (Hostinger).</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>
+                Seguimiento continuo del proyecto, atento a cualquier fallo.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>
+                Modificaciones del sitio moderadas a tu gusto, a cualquier hora.
+              </p>
             </li>
           </ul>
         </article>
