@@ -5,17 +5,31 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
+import { MdPhotoLibrary } from "react-icons/md";
 import { useState } from "react";
+import Scrollspy from "react-scrollspy";
 
 export const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
+  const [activeNav, setActiveNav] = useState("#home");
 
   return (
-    <nav>
+    <Scrollspy
+      className="nav"
+      items={[
+        "home",
+        "about",
+        "experience",
+        "services",
+        "portfolio",
+        "contact",
+      ]}
+      currentClassName="active"
+    >
       <a
-        href="#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
+        id="#home"
+        href="#home"
+        onClick={() => setActiveNav("#home")}
+        className={activeNav === "#home" ? "active" : ""}
       >
         <AiOutlineHome />
       </a>
@@ -41,12 +55,19 @@ export const Nav = () => {
         <RiServiceLine />
       </a>
       <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <MdPhotoLibrary />
+      </a>
+      <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
         <BiMessageSquareDetail />
       </a>
-    </nav>
+    </Scrollspy>
   );
 };

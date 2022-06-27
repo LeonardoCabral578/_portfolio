@@ -16,19 +16,19 @@ export const Footer = () => {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="about">Sobre mi</a>
+            <a href="#about">Sobre mi</a>
           </li>
           <li>
-            <a href="experience">Experiencia</a>
+            <a href="#experience">Experiencia</a>
           </li>
           <li>
-            <a href="services">Servicios</a>
+            <a href="#services">Servicios</a>
           </li>
           <li>
-            <a href="portfolio">Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="contact">Contacto</a>
+            <a href="#contact">Contacto</a>
           </li>
         </ul>
 
