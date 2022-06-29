@@ -23,7 +23,7 @@ const data = [
   {
     image: "https://i.gyazo.com/c48d7addb9b51a31b8bf8952e3b92dc2.png",
     title: "Tienda de Camisetas (PHP)",
-    github: "https://github.com",
+    github: "https://github.com/LeonardoCabral578/shop-php.mysql",
     demo: "",
   },
   {
