@@ -3,9 +3,8 @@ import "./portfolio.scss";
 
 const data = [
   {
-    image: "https://i.gyazo.com/292ad7f12e82badcee50fdddcace62cd.jpg",
-    title:
-      "e-Commerce Completo- Tu Gusto Gourmet (En proceso) (React, Express)",
+    image: "https://i.gyazo.com/e337122afb4ee954a2fce4f1cd296464.png",
+    title: "e-Commerce - Tu Gusto Gourmet (Versión de prueba) (React, Express)",
     github: "https://github.com/LeonardoCabral578/tugustogourmet",
     demo: "http://tugustogourmet.com.ar/",
   },
