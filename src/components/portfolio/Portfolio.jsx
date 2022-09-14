@@ -4,7 +4,8 @@ import "./portfolio.scss";
 const data = [
   {
     image: "https://i.gyazo.com/e337122afb4ee954a2fce4f1cd296464.png",
-    title: "e-Commerce - Tu Gusto Gourmet (Versión de prueba) (React, Express)",
+    title:
+      "e-Commerce - Tu Gusto Gourmet (Versión de prueba, imágenes extraídas Mercado Libre) (React, Express)",
     github: "https://github.com/LeonardoCabral578/tugustogourmet",
     demo: "http://tugustogourmet.com.ar/",
   },
