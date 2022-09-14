@@ -15,14 +15,7 @@ export const Nav = () => {
   return (
     <Scrollspy
       className="nav"
-      items={[
-        "home",
-        "about",
-        "experience",
-        "services",
-        "portfolio",
-        "contact",
-      ]}
+      items={["home", "about", "experience", "portfolio", "contact"]}
       currentClassName="active"
     >
       <a
@@ -47,13 +40,13 @@ export const Nav = () => {
       >
         <BiBook />
       </a>
-      <a
+      {/* <a
         href="#services"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
         <RiServiceLine />
-      </a>
+      </a> */}
       <a
         href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}
