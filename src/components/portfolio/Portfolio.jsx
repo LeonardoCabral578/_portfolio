@@ -4,6 +4,13 @@ import "./portfolio.scss";
 const data = [
   {
     image: "https://i.gyazo.com/292ad7f12e82badcee50fdddcace62cd.jpg",
+    title:
+      "e-Commerce Completo- Tu Gusto Gourmet (En proceso) (React, Express)",
+    github: "",
+    demo: "http://tugustogourmet.com.ar/",
+  },
+  {
+    image: "https://i.gyazo.com/292ad7f12e82badcee50fdddcace62cd.jpg",
     title: "EЯR∅N34~MƎNTĘ (React)",
     github: "",
     demo: "http://erroneamente.com.ar/",
