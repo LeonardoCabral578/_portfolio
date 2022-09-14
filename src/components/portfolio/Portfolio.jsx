@@ -6,7 +6,7 @@ const data = [
     image: "https://i.gyazo.com/292ad7f12e82badcee50fdddcace62cd.jpg",
     title:
       "e-Commerce Completo- Tu Gusto Gourmet (En proceso) (React, Express)",
-    github: "",
+    github: "https://github.com/LeonardoCabral578/tugustogourmet",
     demo: "http://tugustogourmet.com.ar/",
   },
   {
